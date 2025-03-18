@@ -1,4 +1,4 @@
 git pull origin main
 npm install
 npm run build
-pm2 restart nextjs
+pm2 restart hello-world-nextjs
