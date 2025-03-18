@@ -17,4 +17,4 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            ./deploy.sh
+            /home/ubuntu/projects/hello-world-nextjs/deploy.sh
